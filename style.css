@@ -79,9 +79,10 @@ a{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .grade{
-  width: 250px;
+  width: 260px;
   margin: 10px auto;
   border: 1px solid #000000;
+  background-color: #F0F0F0;
 }
 .nomeUnidade{
   text-align: center;
@@ -91,4 +92,23 @@ a{
 .horario{
   text-align: center;
   background-color: #F0F0F0;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 510px){
+  .grades{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media only screen and (max-width: 430px){
+  .grade{
+    width: auto;
+  }
+  .diasSemana{
+    width: 150px;
+    margin: auto;
+  }
 }
