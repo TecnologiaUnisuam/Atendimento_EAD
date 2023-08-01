@@ -4,7 +4,7 @@
 }
 
 body{
-	background:url(../Img/Background/Background.png) repeat-x fixed;
+	background:url(Img/Background/Background.png) repeat-x fixed;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -26,7 +26,7 @@ a{
   width: 100%;
   margin: 0 auto;
   padding: 10px 25px;
-	background:url(../Img/Background/BackgroundTopo.png);
+	background:url(Img/Background/BackgroundTopo.png);
   background-size: cover;
   background-position: center;
 }
